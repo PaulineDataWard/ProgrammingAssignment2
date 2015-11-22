@@ -1,7 +1,7 @@
-## These functions allow the caching of an inverse matrix and its retrieval
+## These functions allow the caching of an inverse matrix, 
+## and its retrieval.
 
-
-## This function creates a special matrix object and caches it.
+## This function creates a special matrix object, and caches it!
 
 makeCacheMatrix <- function(x = matrix()) {
   
@@ -15,8 +15,8 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## This function checks whether a cached copy of an inverteds matrix exists,
-## if so, fetches it, if not, inverts it
+## This function checks whether a cached copy of an inverteds matrix exists:
+## if so, fetches it; if not, inverts it!!!
 
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
